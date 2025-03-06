@@ -1,0 +1,208 @@
+<html>
+
+<head>
+   
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <title>Imagenes</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+</head>  
+
+<style>
+    
+    section{
+        text-align: center;
+    }
+    
+    .imgf{
+        width: 100%;
+        height: 100%;
+        min-width: 250px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    p, h2{
+        text-align: justify;
+    }
+    #img_gray{
+        filter: grayscale(100%);
+    }
+    #img_brillo{
+        filter: brightness(200%);
+    }
+    #img_contraste{
+        filter: contrast(200%);
+    }
+    #img_invert{
+        filter: invert(100%);
+    }
+    #img_opacidad{
+        filter: opacity(50%);
+    }
+    #img_satu{
+        filter: saturate(200%);
+    }
+    #img_sepia{
+        filter: sepia(100%);
+    }
+    #img_blur{
+        filter: blur(2px);
+    }
+    #img_huerotate{
+        filter: hue-rotate(45deg);
+    }
+    #img_sombra{
+        filter: drop-shadow(10px 10px 10px grey);
+    }
+    #img_varios {
+    filter: blur(2px) invert(100%) saturate(200%);
+    }
+    #imgf img {
+        width: 25%;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+    #imgf {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+</style>
+
+<body>
+    
+    <header>
+    <h1 class="animate__animated animate__jello">IMÁGENES EN HTML</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Index</a></li>
+                <li><a href="estilos.html">Formatos</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Imágen Normal</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id convallis magna. Vivamus dui nisi, cursus sollicitudin orci eu, consectetur pellentesque metus. Suspendisse quam arcu, elementum ac risus sit amet, eleifend auctor libero. Mauris hendrerit leo vitae pretium maximus. Phasellus accumsan libero vestibulum, aliquam mauris et, molestie enim. Fusce mattis est nec leo dignissim volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec varius, mauris in mattis porttitor, ante risus porttitor est, sed vulputate augue lectus eu odio. Aliquam erat volutpat.
+            </p>
+            
+            <img class="animate__animated animate__shake animate__delay-3s animate__" src="../recursos/imagenes/pintura1.jpg" alt="pintura neo expresionista">
+        </section>
+
+        <section>
+            <h2>GIF</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sagittis orci ut orci egestas mattis. Nullam pharetra nibh vitae leo pellentesque, sed facilisis turpis eleifend. Mauris eget nisl sed dolor feugiat euismod ut non mi. Suspendisse mattis viverra est, rhoncus semper dui convallis sit amet. Donec vitae enim vitae tortor facilisis rhoncus. Duis id varius est, vitae semper ante. Nullam molestie, mi id tempus semper, orci.
+            </p>
+            
+            <img id="imagen_animada" src="../recursos/imagenes/retrato.gif" alt="imagen animada">
+        </section>
+
+        <section>
+            <h2>Icono</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia leo nec eros tempor vulputate. Suspendisse potenti. Praesent porttitor nisl nunc, sit amet iaculis risus pellentesque quis. Morbi tincidunt ex lorem, quis volutpat nibh cursus sit amet. Vestibulum ornare justo ex, eget sodales turpis elementum vitae. Nulla id molestie felis. Aenean porttitor faucibus vehicula. Quisque iaculis lacus tellus, eu tempor ligula fringilla nec. Praesent eget purus quis est posuere suscipit at quis diam. Morbi vehicula ante in tempor laoreet. Nulla vestibulum tempus tempus.
+                
+                Donec dictum rhoncus leo at hendrerit. Phasellus placerat lorem sed metus porttitor iaculis. Sed pellentesque hendrerit tincidunt. In convallis tincidunt interdum. Donec id eleifend est. Duis faucibus nisl enim, vel lobortis augue consequat quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id libero sit amet magna auctor bibendum. Pellentesque.
+            </p>
+            
+            <a 
+            class="animate__animated animate__heartBeat animate__delay-1s"
+            href="https://es.wikipedia.org/wiki/Jean-Michel_Basquiat"><img id="imagen_ico" src="../recursos/imagenes/icoweb.png" alt="enlace" target="new"></a>
+            
+        </section>
+        
+        
+        <section>
+            <h2>Imágenes en texto</h2>
+            <br>
+            <img class="img_flotantes" id="img_left" src="../recursos/imagenes/pintura2.jpg">
+            
+        <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia leo nec eros tempor vulputate. Suspendisse potenti. Praesent porttitor nisl nunc, sit amet iaculis risus pellentesque quis. Morbi tincidunt ex lorem, quis volutpat nibh cursus sit amet. Vestibulum ornare justo ex, eget sodales turpis elementum vitae. Nulla id molestie felis. Aenean porttitor faucibus vehicula. Quisque iaculis lacus tellus, eu tempor ligula fringilla nec. Praesent eget purus quis est posuere suscipit at quis diam. Morbi vehicula ante in tempor laoreet. Nulla vestibulum tempus tempus.
+                
+                Donec dictum rhoncus leo at hendrerit. Phasellus placerat lorem sed metus porttitor iaculis. Sed pellentesque hendrerit tincidunt. In convallis tincidunt interdum. Donec id eleifend est. Duis faucibus nisl enim, vel lobortis augue consequat quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id libero sit amet magna auctor bibendum. Pellentesque.
+            </p>
+            
+            <img class="img_flotantes" id="img_right" src="../recursos/imagenes/pintura3.jpg">
+            
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia leo nec eros tempor vulputate. Suspendisse potenti. Praesent porttitor nisl nunc, sit amet iaculis risus pellentesque quis. Morbi tincidunt ex lorem, quis volutpat nibh cursus sit amet. Vestibulum ornare justo ex, eget sodales turpis elementum vitae. Nulla id molestie felis. Aenean porttitor faucibus vehicula. Quisque iaculis lacus tellus, eu tempor ligula fringilla nec. Praesent eget purus quis est posuere suscipit at quis diam. Morbi vehicula ante in tempor laoreet. Nulla vestibulum tempus tempus.
+                
+                Donec dictum rhoncus leo at hendrerit. Phasellus placerat lorem sed metus porttitor iaculis. Sed pellentesque hendrerit tincidunt. In convallis tincidunt interdum. Donec id eleifend est. Duis faucibus nisl enim, vel lobortis augue consequat quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id libero sit amet magna auctor bibendum. Pellentesque.
+            </p>
+            
+            <p>
+                Donec dictum rhoncus leo at hendrerit. Phasellus placerat lorem sed metus porttitor iaculis. Sed pellentesque hendrerit tincidunt. In convallis tincidunt interdum. Donec id eleifend est. Duis faucibus nisl enim, vel lobortis augue consequat quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id libero sit amet magna auctor bibendum. Pellentesque.
+            </p>    
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia leo nec eros tempor vulputate. Suspendisse potenti. Praesent porttitor nisl nunc, sit amet iaculis risus pellentesque quis. Morbi tincidunt ex lorem, quis volutpat nibh cursus sit amet. Vestibulum ornare justo ex, eget sodales turpis elementum vitae. Nulla id molestie felis. Aenean porttitor faucibus vehicula. Quisque iaculis lacus tellus, eu tempor ligula fringilla nec. Praesent eget purus quis est posuere suscipit at quis diam. Morbi vehicula ante in tempor laoreet. Nulla vestibulum tempus tempus.
+                
+                Donec dictum rhoncus leo at hendrerit. Phasellus placerat lorem sed metus porttitor iaculis. Sed pellentesque hendrerit tincidunt. In convallis tincidunt interdum. Donec id eleifend est. Duis faucibus nisl enim, vel lobortis augue consequat quis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id libero sit amet magna auctor bibendum. Pellentesque.
+            </p>
+            
+        </section>
+        
+        <section id="fondo_imagen">
+           
+            <h2 style="color:beige;font-size: 48px;font-weight:bold;">Imgen como fondo o Background</h2>
+            
+            <p class="parrafo_1" style="color:red;font-weight:bolder;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nunc quam, pellentesque in molestie non, condimentum pharetra turpis. Sed euismod sapien sed arcu auctor, eget blandit metus rutrum. Curabitur tristique eu leo ut molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris dignissim sagittis ligula, a elementum eros luctus sit amet. Pellentesque non nunc posuere, finibus erat in, scelerisque est. Donec lobortis turpis ex, id suscipit velit faucibus ut. Morbi non quam quis libero rhoncus mollis. Phasellus auctor scelerisque nibh. Vestibulum nunc nisl, tincidunt eu lectus sit amet, venenatis ultricies eros. Donec egestas risus ut diam pellentesque.</p>
+            
+            <p class="parrafo_1" style="color:red;font-weight:bolder;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nunc quam, pellentesque in molestie non, condimentum pharetra turpis. Sed euismod sapien sed arcu auctor, eget blandit metus rutrum. Curabitur tristique eu leo ut molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+            
+            <p class="parrafo_1" style="color:red;font-weight:bolder;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nunc quam, pellentesque in molestie non, condimentum pharetra turpis.</p>
+            
+        </section>
+        
+        <section id="imgf">
+           
+            <h2>Filtros de Imágenes</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nunc quam, pellentesque in molestie non, condimentum pharetra turpis. Sed euismod sapien sed arcu auctor, eget blandit metus rutrum. Curabitur tristique eu leo ut molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris dignissim sagittis ligula, a elementum eros luctus sit amet. Pellentesque non nunc posuere, finibus erat in, scelerisque est. Donec lobortis turpis ex, id suscipit velit faucibus ut. Morbi non quam quis libero rhoncus mollis. Phasellus auctor scelerisque nibh. Vestibulum nunc nisl, tincidunt eu lectus sit amet, venenatis ultricies eros. Donec egestas risus ut diam pellentesque.</p>
+            
+            
+            <img src="../recursos/imagenes/pintura6.png">
+            <img id="img_gray" src="../recursos/imagenes/pintura6.png">
+            <img id="img_brillo" src="../recursos/imagenes/pintura6.png">
+            <img id="img_contraste" src="../recursos/imagenes/pintura6.png">
+            <img id="img_invert" src="../recursos/imagenes/pintura6.png">
+            <img id="img_opacidad" src="../recursos/imagenes/pintura6.png">
+            <img id="img_satu" src="../recursos/imagenes/pintura6.png">
+            <img id="img_sepia" src="../recursos/imagenes/pintura6.png">
+            <img id="img_blur" src="../recursos/imagenes/pintura6.png">
+            <img id="img_huerotate" src="../recursos/imagenes/pintura6.png">
+            <img id="img_sombra" src="../recursos/imagenes/pintura6.png">
+            <img id="img_varios" src="../recursos/imagenes/pintura6.png">
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <h6>Elaborado por Angel Dominguez</h6>
+    </footer>
+
+</body>
+
+</html>

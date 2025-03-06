@@ -1,0 +1,266 @@
+<html>
+
+<head>
+  
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <title>Formularios</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <style type="text/css"></style>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="animate__animated animate__fadeIn animate__slower">FORMULARIOS</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Index</a></li>
+                <li><a href="estilos.html">Formatos</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Formulario</h2>
+            <p>m dolor sit amet, consectetur adipiscing elit. Donec felis magna, iaculis ac faucibus eget, porttitor ac libero. Mauris enim leo, fermentum non erat a, mattis pellentesque augue. Sed molestie metus accumsan purus volutpat, ut vestibulum augue sagittis. Nulla nec velit erat. Nam odio dolor, pulvinar in maximus at, facilisis porttitor massa. Suspendisse sollicitudin bibendum massa quis cursus. Quisque iaculis dapibus placerat. Phasellus laoreet lobortis mauris, aliquam tincidunt lacus auctor eget. Phasellus non fringilla arcu.</p>
+            <form action="" method="get">
+                <label for="fnombre">Nombre</label>
+                <input type="text" id="fnombre" name="fnombre" value="Escribe tu nombre">
+                <label for="fapellido">Apellido</label>
+                <input type="text" id="fapellido" name="fapellido" value="Escribe tu apellido">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section>
+
+            <h2>Formulario de Registro</h2>
+
+            <p>Completa el siguiente formulario para registrarte en nuestro sitio.</p>
+
+            <form action="" method="post">
+
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
+
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="contrasena">Contraseña:</label><br>
+                <input type="password" id="contrasena" name="contrasena"><br><br>
+
+                <label for="fecha_nacimiento">Fecha de Nacimiento:</label><br>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>
+
+                <label for="color_favorito">Color Favorito:</label><br>
+                <input type="color" id="color_favorito" name="color_favorito"><br><br>
+                
+                <label for="rango_edad">Rango de Edad:</label><br>
+                <input type="range" id="rango_edad" name="rango_edad" min="18" max="99"><br><br>
+
+                <label for="aceptar_terminos">Acepto los términos y condiciones:</label>
+                <input type="checkbox" id="aceptar_terminos" name="aceptar_terminos"><br><br>
+
+                <input type="submit" value="Registrarse">
+
+            </form>
+
+        </section>
+
+        <section>
+            <h2>Formulario</h2>
+            <p>m dolor sit amet, consectetur adipiscing elit. Donec felis magna, iaculis ac faucibus eget, porttitor ac libero. Mauris enim leo, fermentum non erat a, mattis pellentesque augue. Sed molestie metus accumsan purus volutpat, ut vestibulum augue sagittis. Nulla nec velit erat. Nam odio dolor, pulvinar in maximus at, facilisis porttitor massa. Suspendisse sollicitudin bibendum massa quis cursus. Quisque iaculis dapibus placerat. Phasellus laoreet lobortis mauris, aliquam tincidunt lacus auctor eget. Phasellus non fringilla arcu.</p>
+            
+            <form method="get" action="">
+            
+            <label for="fnombre1">Nombre:</label>
+            <input type="text" id="fnombre1" name="fnombre1" value="">
+            <br><br>
+            
+            <label for="genero">Genero:</label>
+            <br><br>
+            
+            <label>Masculino</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <br>
+            
+            <label>Femenino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <br><br>
+            
+            <label for="pais">País:</label>
+            <select id="pais_ul" name="pais_ul">
+            <option value="mx">México</option>
+            <option value="es">España</option>
+            <option value="us">Estados Unidos</option><option value="it">Italia</option>
+            <option value="co">Colombia</option>
+            <option value="bo">Bolivia</option>
+            </select>
+            <br><br>
+            
+            <label for="color_fav">¿Cuál es tu color favorito?</label>
+            <input type="color" value="" id="color_fav" name="color_fav">
+            <br><br>
+            
+            <label for="">¿Cúal es tu género musical favorito?</label>
+            <br><br>
+            
+            <input type="checkbox" id="g_musical1" name="g_musical1" value="Jazz">
+            <label for="g_musical1">Jazz</label>
+           
+            <input type="checkbox" id="g_musical2" name="g_musical2" value="Rock">
+            <label for="g_musical2">Rock</label>
+    
+            <input type="checkbox" id="g_musical3" name="g_musical3" value="Rap">
+            <label for="g_musical3">Rap</label>
+           
+            <input type="checkbox" id="g_musical4" name="g_musical4" value="Pop">
+            <label for="g_musical4">Pop</label>
+            <br>
+            
+            <input type="submit" value="Enviar">
+            
+            </form>
+            
+        </section>
+
+        <section>
+            <h2>Formulario</h2>
+            <p>m dolor sit amet, consectetur adipiscing elit. Donec felis magna, iaculis ac faucibus eget, porttitor ac libero. Mauris enim leo, fermentum non erat a, mattis pellentesque augue. Sed molestie metus accumsan purus volutpat, ut vestibulum augue sagittis. Nulla nec velit erat. Nam odio dolor, pulvinar in maximus at, facilisis porttitor massa. Suspendisse sollicitudin bibendum massa quis cursus. Quisque iaculis dapibus placerat. Phasellus laoreet lobortis mauris, aliquam tincidunt lacus auctor eget. Phasellus non fringilla arcu.</p>
+            
+            <form action="registro_torneo.php" method="post">
+            <h2>Registro para Torneo de Videojuegos</h2>
+    
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+    
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+    
+            <label for="nickname">Nickname:</label>
+            <input type="text" id="nickname" name="nickname" required>
+            <br><br>
+    
+            <label for="juego">Selecciona el juego:</label>
+            <select id="juego" name="juego">
+            <option value="valorant">Super Smash Bros Ultimate</option>
+            <option value="fortnite">Cuphead</option>
+            <option value="lol">Hades</option>
+            <option value="csgo">Pókemon</option>
+            </select>
+            <br><br>
+    
+            <label for="nivel">Nivel de Habilidad:</label>
+            <br>
+            <input type="radio" id="principiante" name="nivel" value="principiante" required>
+            <label for="principiante">Principiante</label>
+    
+            <input type="radio" id="intermedio" name="nivel" value="intermedio">
+            <label for="intermedio">Intermedio</label>
+    
+            <input type="radio" id="avanzado" name="nivel" value="avanzado">
+            <label for="avanzado">Avanzado</label>
+            <br>
+            
+            <label for="equipo">¿Tienes equipo?</label>
+            <input type="checkbox" id="equipo" name="equipo" value="sí">
+            <br><br>
+    
+            <label for="mensaje">Comentarios adicionales:</label>
+            <br>
+            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+            <br>
+    
+            <input type="submit" value="Registrarse">
+            </form>
+
+        </section>
+
+        <section>
+            <h2>Formulario</h2>
+            <p>m dolor sit amet, consectetur adipiscing elit. Donec felis magna, iaculis ac faucibus eget, porttitor ac libero. Mauris enim leo, fermentum non erat a, mattis pellentesque augue. Sed molestie metus accumsan purus volutpat, ut vestibulum augue sagittis. Nulla nec velit erat. Nam odio dolor, pulvinar in maximus at, facilisis porttitor massa. Suspendisse sollicitudin bibendum massa quis cursus. Quisque iaculis dapibus placerat. Phasellus laoreet lobortis mauris, aliquam tincidunt lacus auctor eget. Phasellus non fringilla arcu.</p>
+            
+            <form action="reservacion_restaurante.php" method="post">
+            <h2>Reservación en el Restaurante</h2>
+            <br>
+    
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="telefono">Teléfono de contacto:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            <br>
+    
+            <label for="fecha">Fecha de la reservación:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <br>
+    
+            <label for="hora">Hora de la reservación:</label>
+            <input type="time" id="hora" name="hora" required>
+            <br>
+    
+            <label for="personas">Número de personas:</label>
+            <input type="number" id="personas" name="personas" min="1" required>
+            <br>
+    
+            <label for="zona">Zona preferida:</label>
+            <select id="zona" name="zona">
+            <option value="interior">Interior</option>
+            <option value="terraza">Terraza</option>
+            <option value="privado">Salón privado</option>
+            </select>
+            <br>
+    
+            <label for="comentarios">Comentarios adicionales:</label>
+            <br>
+            <textarea id="comentarios" name="comentarios" rows="3"></textarea>
+            <br>
+    
+            <input type="submit" value="Reservar">
+            </form>
+
+        </section>
+        
+        <section>
+            <form action="" method="get">
+               
+                <label for="nombre_1">Nombre:</label>
+                <input type="text" id="nombre_1" name="nombre_1" value="">
+                
+                <label for="email_1">Correo:</label>
+                <input type="email" id="email_1" name="email_1" value="">
+                <br>
+                
+                <label for="mensaje">Comentario:</label>
+                <br>
+                <textarea name="manesaje" row="30" cols="40">Escribe tu mensaje aquí:</textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <h6>Elaborado por Angel Dominguez</h6>
+    </footer>
+
+</body>
+
+</html>
